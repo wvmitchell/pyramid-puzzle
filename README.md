@@ -29,6 +29,7 @@ pass. You can get started by running the following commands:
 2) Move in and install dependencies: `cd pyramid-puzzle && npm i`
 3) Run the tests: `npm test`
 4) Alternatively, run the tests in watch mode: `npm run test:watch`
+5) Make the first test pass, then move on to the first skipped test
 
 ## Important notes
 1) Other than unskipping tests, you do not need to alter the test file.
