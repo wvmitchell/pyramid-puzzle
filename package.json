@@ -1,0 +1,19 @@
+{
+  "name": "pyramid-puzzle",
+  "version": "1.0.0",
+  "description": "A pyramid programming puzzle",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wvmitchell/pyramid-puzzle.git"
+  },
+  "author": "wvmitchell@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wvmitchell/pyramid-puzzle/issues"
+  },
+  "homepage": "https://github.com/wvmitchell/pyramid-puzzle#readme"
+}
