@@ -25,10 +25,10 @@ Your task is to write a function that takes a pyramid representation as argument
 Some example tests have already been created for you. You only need make them
 pass. You can get started by running the following commands:
 
-Clone the repo: `git clone git@github.com:wvmitchell/pyramid-puzzle.git`
-Move in and install dependencies: `cd pyramid-puzzle && npm i`
-Run the tests: `npm test`
-Alternatively, run the tests in watch mode: `npm run test:watch`
+1) Clone the repo: `git clone git@github.com:wvmitchell/pyramid-puzzle.git`
+2) Move in and install dependencies: `cd pyramid-puzzle && npm i`
+3) Run the tests: `npm test`
+4) Alternatively, run the tests in watch mode: `npm run test:watch`
 
 ## Important notes
 1) Other than unskipping tests, you do not need to alter the test file.
