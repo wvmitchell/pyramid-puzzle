@@ -1,6 +1,6 @@
 function longestSlideDown(pyramid){
-  // Copy pyramid
-  let pyramidCopy = JSON.parse(JSON.stringify(pyramid)); // does not work for some values...
+  // Copy pyramid, keeping in mind nested arrays
+  let pyramidCopy = JSON.parse(JSON.stringify(pyramid)); // this approach does not work for some values...
   
   // Iterate through bottom layer first, add sums from lower elements, find greatest sum
   // replace elements with new sums, and move upward
@@ -19,23 +19,5 @@ function longestSlideDown(pyramid){
 
   return pyramidCopy[0][0];
 }
-
-// function traversePyramid(pyramid, depth, longitude) {
-//   if (depth < 0) {
-//     console.log('end')
-//     return 0;
-//   } else {
-//     console.log('move up')
-
-//     const sumLeft = pyramid[depth][longitude] + pyramid[depth + 1][longitude];
-//     const sumRight = pyramid[depth][longitude] + pyramid[depth + 1][longitude + 1];
-
-//     if (sumLeft > sumRight) {
-//       return sumLeft + traversePyramid(pyramid, depth - 1, longitude);
-//     }
-
-//     return sumRight + traversePyramid(pyramid, depth - 1, longitude);
-//   }
-// }
 
 module.exports = { longestSlideDown };
