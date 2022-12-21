@@ -21,14 +21,14 @@ describe('longestSlideDown', () => {
     expect(longestSlideDown(pyramid)).toBe(10)
   })
 
-  test.skip("should work on small pyramids", () => {
+  test("should work on small pyramids", () => {
     const pyramid = [[3],
                     [7, 4],
                     [2, 4, 6]]
     expect(longestSlideDown(pyramid)).toBe(14)
   })
 
-  test.skip( "should work on medium pyramids", () => {
+  test("should work on medium pyramids", () => {
     const pyramid = [[3],
                    [7, 4],
                   [2, 4, 6],
@@ -36,7 +36,7 @@ describe('longestSlideDown', () => {
     expect(longestSlideDown(pyramid)).toBe(23)
   })
 
-  test.skip("should work for large pyramids", () => {
+  test("should work for large pyramids", () => {
     const pyramid = [[75],
                    [95, 64],
                  [17, 47, 82],
@@ -56,13 +56,13 @@ describe('longestSlideDown', () => {
   });
 
   // Mind the timer, you fn must finish in 5 seconds...
-  test.skip("should work for huge pyramids", () => {
+  test("should work for huge pyramids", () => {
     const pyramid = hugePyramid
     expect(longestSlideDown(pyramid)).toBe(1977)
   });
 
   // Don't even bother trying until you're passing the previous tests
-  test.skip("should work for epic pyramids", () => {
+  test("should work for epic pyramids", () => {
     const pyramid = epicPyramid
     expect(longestSlideDown(pyramid)).toBe(7494)
   });
